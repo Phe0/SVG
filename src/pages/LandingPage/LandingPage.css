@@ -1,0 +1,12 @@
+.landing-section {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -88%;
+}
+
+.test-space {
+    background-color: #efefef;
+    width: 100%;
+    height: 400vh;
+}
