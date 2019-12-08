@@ -7,7 +7,8 @@ class LandingPage extends Component{
     render() {
         return (
             <>
-                <div className="landing-section">
+                <div className="landing-section sticky-nav">
+                    <NameSVG/>
                     <Background/>
                 </div>
                 <div className="test-space">

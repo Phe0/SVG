@@ -1,0 +1,77 @@
+.name-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    max-width: 80%;
+    z-index: 3;
+}
+
+
+
+.remove {
+    animation-name: fade;
+    animation-duration: 1.2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+}
+
+#H {
+    animation-name: moveH;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+#feo {
+    animation-name: moveFeo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.P {
+    animation-name: moveP;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes moveP {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(273px);
+    }
+}
+
+@keyframes moveH {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-151px);
+    }
+}
+
+@keyframes moveFeo {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-336px);
+    }
+}

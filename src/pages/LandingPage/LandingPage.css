@@ -1,5 +1,9 @@
 .landing-section {
     width: 100%;
+    position: relative;
+}
+
+.sticky-nav {
     position: -webkit-sticky;
     position: sticky;
     top: -88%;
