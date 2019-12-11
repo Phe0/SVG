@@ -1,0 +1,38 @@
+.bicycle-area {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bicycle {
+    width: 10%;
+}
+
+.rotation {
+    animation-name: rotate;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform-origin: center center; */
+}
+
+#Wheel1 {
+    transform-origin: 24.5px 49.5px;
+}
+
+#Wheel2 {
+    transform-origin: 100.5px 49.5px;
+}
+
+#pedal {
+    transform-origin: 55.5px 52.5px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
