@@ -1,0 +1,35 @@
+.hourglass-area {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hourglass {
+    width: 3%;
+    transform: rotate(-180deg);
+    transform-origin: center;
+
+    animation-name: rotation;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-180deg);
+    }
+    25% {
+        transform: rotate(-180deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}

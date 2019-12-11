@@ -3,6 +3,7 @@ import './LandingPage.css'
 
 import NameSVG from '../../components/NameSVG/NameSVG'
 import Bicycle from '../../components/Bicycle/Bicycle'
+import Hourglass from '../../components/Hourglass/Hourglass'
 
 class LandingPage extends Component{
     render() {
@@ -21,6 +22,7 @@ class LandingPage extends Component{
                 </div>
                 <div className="test-space">
                     <Bicycle/>
+                    <Hourglass/>
                 </div>
             </>
         )
